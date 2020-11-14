@@ -1,7 +1,16 @@
-import React from "react"
+import React, { Component } from "react"
 
-export default () => (
-  <main>
-    Hello from the Project Controller.jsx 
-  </main>
-);
+export default class ProjectController extends Component {
+  constructor(props) {
+    super(props)
+  }
+
+  render() {
+    return (
+      <section>
+        Hello from the Project Controller.jsx 
+        Page: {this.props.currentStatus}
+      </section>
+    )
+  }
+};
