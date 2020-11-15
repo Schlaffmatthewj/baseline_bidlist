@@ -8,10 +8,10 @@ export default () => (
       <Link to="/">Home</Link>
       <Link to="/about">About</Link>
       <Link to="/contact-info">Contact Info</Link>
-      <Link to="/projects">Project Controller (Index)</Link>
-      <Link to="/projects/new">Project Controller (New)</Link>
-      <Link to="/projects/edit/2">Project Controller (Edit)</Link>
-      <Link to="/projects/2">Project Controller (Show)</Link>
+      <Link to="/projects">All Projects</Link>
+      <Link to="/projects/new">New Project</Link>
+      <Link to="/projects/edit/2">Edit Project</Link>
+      <Link to="/projects/2">Single Project</Link>
     </nav>
   </header>
 );

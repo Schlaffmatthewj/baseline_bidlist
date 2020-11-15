@@ -19,7 +19,7 @@ export default class RoutingController extends Component {
 
   render() {
     return (
-      <main>
+      <div>
         <Router>
           <Header />
           <Switch>
@@ -66,7 +66,7 @@ export default class RoutingController extends Component {
           </Switch>
           <Footer />
         </Router>
-      </main>
+      </div>
     )
   }
 };

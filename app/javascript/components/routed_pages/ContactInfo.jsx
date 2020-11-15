@@ -1,7 +1,7 @@
 import React from "react"
 
 export default () => (
-  <section>
+  <main>
     Hello from the Contact Info.jsx 
-  </section>
+  </main>
 );
